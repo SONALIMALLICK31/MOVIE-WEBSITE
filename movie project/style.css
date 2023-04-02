@@ -1,0 +1,97 @@
+body{
+    background-image: url(https://th.bing.com/th/id/R.ae7bf9012c13a70a827d9a5a06956b37?rik=FgebXjk6BJksPw&riu=http%3a%2f%2fthesocietyband.com%2fwp-content%2fuploads%2f2015%2f09%2fFree-Download-Background-Images-For-Website-Design-3-1024x396.jpg&ehk=EP0iPe56nJ3F3f6VuF6BNzQ4apfdMf003EQTSGeZmtA%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.title{
+    text-align: left;
+    color: rgb(158, 29, 6);
+    font-weight: bold;
+    font-size: 50px;
+}
+.title span{
+    color: rgb(21, 121, 209);
+}
+.moviename{
+    margin-left: 10px;
+    font-size: 30px;
+    border-radius:0.3cm;
+    height: 50px;
+}
+.Year{
+    font-size: 30px;
+    border-radius:0.3cm;
+    height: 50px;
+    margin-left: 10px;
+}
+.abc{
+    flex: 1;
+    flex-direction: row;
+    height: 50px;
+    padding-bottom: 25px;    
+}
+.abc ::placeholder{
+    font-size: 20px;
+    text-align:start;
+    padding-left: 10px;
+}
+.label1{
+    color: #fffff0;
+    justify-content: center;
+    height: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.label2{
+    color: #fffff0;
+    justify-content: center;
+    height: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.container{
+    height: 100%;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.btn{
+    width: 15%;
+    height:50px;
+    text-align: center;
+    color: white;
+    border: 2px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius:0.3cm;
+    background-color: blue;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #32cd32;
+}
+
+.movieposter{
+    padding-right: 850px;
+    padding-top: 40px;
+} 
+ .moviedetails{
+    padding-bottom: 100px;
+    margin-top: -300px;
+
+} 
+ .moviedetails h2{
+    text-align: justify;
+    margin-left: 30%;
+    color: whitesmoke;
+}  
+
